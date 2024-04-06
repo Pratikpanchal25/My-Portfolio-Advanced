@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     
 
-<footer class="bg-white sm:mb-0 mb-[5rem] w-full text-black flex justify-center items-center sm:mt-[60px] relative " >
+<footer className="bg-white sm:mb-0 mb-[5rem] w-full text-black flex justify-center items-center sm:mt-[60px] relative " >
   
    <div className= '  h-[4rem] w-[30rem]  sm:flex-row flex justify-center sm:justify-between px-10 items-center'>
     
