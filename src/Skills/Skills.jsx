@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Skills() {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font slide-in-top">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
@@ -71,6 +71,19 @@ export default function Skills() {
             src="mongodb.png"
             alt=""
           />
+        </div>
+      </div>
+      <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+        <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+          <img className="rounded-xl" src="pngimg.com - mysql_PNG10.png" alt="" />
+        </div>
+        <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+          <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+           MySql
+          </h2>
+          <p className="leading-relaxed text-base">
+          MySQL: Robust SQL database. Sequelize: Powerful Node.js ORM for MySQL.
+          </p>
         </div>
       </div>
     </section>

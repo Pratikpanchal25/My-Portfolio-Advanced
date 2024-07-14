@@ -8,21 +8,20 @@ export default function Home() {
           <h1 className="title-font sm:text-4xl text-4xl mb-4 sm:mt-8 text-black ml-5 font-bold ">
             Pratik Panchal..
             <br className="hidden lg:inline-block" />{" "}
-            <span className="text-2xl font-normal "> Web Developer</span>
+            <span className="text-2xl font-normal ">FULL Stack Developer...</span>
           </h1>
           <p className="mb-8  leading-relaxed font-semibold ml-5 text-black">
-            I am highly skilled web developer specializing in React.js,
-            JavaScript, and Tailwind CSS. With a passion for creating dynamic
-            and responsive user interfaces, I have proven track record of
-            delivering high-quality web applications. My expertise lies in
-            harnessing the power of cutting-edge technologies to build seamless
-            and innovative digital experiences..
+            Specializing in Building Robust web Applications using the FULL
+            Stack -React.js, Node.js, Tailwind CSS, MongoDB, Express.js, MySql, And Sequelize. With a Keen eye
+            for detail and a knack for Problem-solving, I craft Seamless user
+            Experiences through Innovative Front-end interfaces and Scalable
+            Back-end Solutions.
           </p>
 
-          <div className=" sm:ml-5 sm:flex flex flex-col items-center sm:mt-10  text-3xl font-semibold text-black w-full">
+          <div className=" sm:ml-2 sm:flex flex flex-col items-center sm:mt-10  text-3xl font-semibold text-black w-full">
             <div className="scale-up-hor-left flex justify-between items-center  sm:ml-5 sm:flex w-full sm:w-[30rem]">
               <div className="text-[4rem] sm:pb-5  font-thin">|</div>
-             
+
               <img
                 className=" w-[2rem] sm:w-[4rem] sm:h-[4rem] rounded-lg"
                 src="tailwind.png"
@@ -33,13 +32,13 @@ export default function Home() {
                 src="js logo.png"
                 alt=""
               />
-             
+
               <img
                 className="w-[2rem] sm:w-[4rem] sm:h-[4rem] rounded-lg"
                 src="react.webp"
                 alt=""
               />
-                <img
+              <img
                 className=" w-[2rem] sm:w-[4rem] sm:h-[4rem] rounded-lg"
                 src="node.png"
                 alt=""
@@ -47,6 +46,11 @@ export default function Home() {
               <img
                 className=" w-[2rem] sm:w-[4rem] sm:h-[4rem] rounded-lg"
                 src="mongodb.png"
+                alt=""
+              />
+              <img
+                className=" w-[2rem] sm:w-[4rem] sm:h-[4rem] rounded-lg"
+                src="pngimg.com - mysql_PNG10.png"
                 alt=""
               />
             </div>
@@ -59,7 +63,7 @@ export default function Home() {
           <img
             className=" transform-[3s] object-cover object-center rounded-xl relative sm:right-20 shadow-black shadow-lg sm:mt-0 mt-5  sm:mb-0 mb-8 bottom-0 sm:bottom-0 "
             alt="hero"
-            src="/Pratik_Profile (1).jpg"
+            src="profile_bg_black.png"
           />
         </div>
       </div>

@@ -7,6 +7,31 @@ export default function Projects() {
       <section class="text-gray-600 body-font">
         <div class="container px-5 pt-10  mx-auto">
           <div class="flex mb-[7.2rem] flex-wrap">
+          <ProjectComponent
+              title={"CineBlogs"}
+              image={"blogs-logo-10.png"}
+              content={
+                "CineBlogs is an Appwrite-fueled site for Movie Buffs, to Write Movie Content and Interesting experiences. Cineblog is Highly Production Level Project. React-Hook-Form, Appwrite, and More Advanced Techs Used."
+              }
+              link={"https://cineblogs.netlify.app/"}
+            />
+            <ProjectComponent
+              title={"Currency Converter"}
+              image={"currency.png"}
+              content={
+                "Built in React, our currency converter offers worldwide currency options with an intuitive layout, making it easy to convert between different currencies for smooth understanding."
+              }
+              link={"https://currency-converter-by-pratikpanchal.netlify.app/"}
+            />
+            
+            <ProjectComponent
+              title={"Guess The Number"}
+              image={"game logo.jpg"}
+              content={
+                "Expertly crafted vanilla JavaScript number guessing game with advanced features and a polished user interface for an engaging user experience."
+              }
+              link={"https://guessing-the-number-by-pratik.netlify.app/"}
+            />
             <ProjectComponent
               title={"Movie-Flix"}
               image={"cinema logo.jpg"}
@@ -16,14 +41,6 @@ export default function Projects() {
               link={"https://movieflix-by-pratik.netlify.app/"}
             />
 
-            <ProjectComponent
-              title={"Guess The Number"}
-              image={"game logo.jpg"}
-              content={
-                "Expertly crafted vanilla JavaScript number guessing game with advanced features and a polished user interface for an engaging user experience."
-              }
-              link={"https://guessing-the-number-by-pratik.netlify.app/"}
-            />
 
             <ProjectComponent
               title={"Your Events"}
@@ -34,14 +51,7 @@ export default function Projects() {
               link={"https://your-events-by-pratik.netlify.app/"}
             />
 
-            <ProjectComponent
-              title={"Currency Converter"}
-              image={"currency.png"}
-              content={
-                "Built in React, our currency converter offers worldwide currency options with an intuitive layout, making it easy to convert between different currencies for smooth understanding."
-              }
-              link={"https://currency-converter-by-pratikpanchal.netlify.app/"}
-            />
+            
 
             <ProjectComponent
               title={"Password Generator"}

@@ -3,20 +3,21 @@ import emailjs from "@emailjs/browser";
 
 export default function Contact() {
   const form = useRef();
+  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
+    alert("Email Sent To Pratik");
 
-    const [username, setUsername] = useState("");
-    const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
-    console.log(form);
-    setUsername("")
-    setEmail("")
-    setMessage("")
+    console.log();
+    setUsername("");
+    setEmail("");
+    setMessage("");
 
     emailjs
-      .sendForm("pratik_id", "template_altltxh", form.current, {
+      .send("pratik_id", "template_altltxh", {username, email, message}, {
         publicKey: "nq1eWQ3peS7nk96vI",
       })
       .then(
@@ -50,7 +51,7 @@ export default function Contact() {
                   type="text"
                   id="name"
                   name="name"
-                  // onChange={(e)=> setUsername(e.target.value)}
+                  onChange={(e) => setUsername(e.target.value)}
                   className="w-full bg-transparent bg-opacity-50 rounded border border-black   focus:bg-white  focus:ring-black  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
@@ -63,7 +64,7 @@ export default function Contact() {
                   type="email"
                   id="email"
                   name="email"
-                  // onChange={(e)=> setEmail(e.target.value)}
+                  onChange={(e) => setEmail(e.target.value)}
                   className="w-full bg-transparent bg-opacity-50 rounded border border-black   focus:bg-white  focus:ring-black  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
@@ -75,7 +76,7 @@ export default function Contact() {
                   value={message}
                   id="message"
                   name="message"
-                  // onChange={(e)=> setMessage(e.target.value)}
+                  onChange={(e) => setMessage(e.target.value)}
                   className="w-full bg-transparent bg-opacity-50 rounded border border-black  focus:bg-white   h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                 ></textarea>
               </div>
